@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(219, 186, 146);
+}
+header{
+    background-color:rgb(99, 36, 12);
+}
+header h1{
+    margin:0;
+    padding:0;
+    color:white;
+    font-size:300%;
+    text-align:center;
+}
+#navbar{
+    padding:1% 1%;
+}
+#navbar a{
+    padding:0.5% 3%;
+    color:white;
+    font-size:150%;
+    font-weight:bold;
+    text-decoration:none;
+}
+#navbar a:hover{
+    color:black;
+    background-color:rgb(219, 186, 146);
+    border-radius:999px;
+    border-color:black;
+    border-style:double;
+}
+#beranda1{
+    margin:50px;
+    justify-content:center;
+}
+#materi-pembuka{
+    margin:30px;
+}
+#materi-pembuka h2,h3{
+    margin:0;
+}
+#materi-pembuka p{
+    margin:10px;
+}
+#materi-pembuka ul{
+    margin:0;
+}
+footer{
+    text-align:center;
+    color:white;
+    font-size:70%;
+    background-color:rgb(99, 36, 12);
+    padding:1% 0.01%;
+}
+footer .socmed{
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    gap:10px;
+    width:fit-content;
+}
+footer .socmed a img{
+    width:50px;
+    height:50px;
+    border-radius:10px;
+    object-fit:cover;
+    text-decoration:none;
+}
+@media screen and (max-widht: 768px){
+    header{
+        padding:10px;
+    }
+    #navbar{
+        margin:10px;
+    }
+}
